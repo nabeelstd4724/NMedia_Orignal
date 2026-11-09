@@ -1,0 +1,83 @@
+{
+  "openapi": "3.0.3",
+  "info": { "title": "NMedia API", "version": "0.1.0" },
+  "servers": [{ "url": "http://127.0.0.1:4000" }],
+  "paths": {
+    "/health": { "get": {} },
+    "/ready": { "get": {} },
+    "/api/v1/home": { "get": { "summary": "Published homepage content with up to eight featured hero items", "responses": { "200": { "description": "Published homepage", "content": { "application/json": { "schema": { "$ref": "#/components/schemas/HomeResponseEnvelope" } } } } } } },
+    "/api/v1/auth/register": { "post": {} },
+    "/api/v1/auth/login": { "post": {} },
+    "/api/v1/auth/logout": { "post": {} },
+    "/api/v1/auth/me": { "get": {} },
+    "/api/v1/movies": { "get": {}, "post": {} },
+    "/api/v1/movies/{slug}": { "get": {} },
+    "/api/v1/movies/{id}/playback": { "get": { "summary": "Resolve playback entitlement and browser-compatible media tracks" } },
+    "/api/v1/genres": { "get": {} },
+    "/api/v1/me/progress/{movieId}": { "put": {} },
+    "/api/v1/me/continue-watching": { "get": {} },
+    "/api/v1/me/watchlist": { "get": {} },
+    "/api/v1/me/watchlist/{movieId}": { "post": {}, "delete": {} },
+    "/api/v1/ads/config": { "get": {} },
+    "/api/v1/ads/vast/{campaignId}": { "get": {} },
+    "/api/v1/ads/events": { "post": {} },
+    "/api/v1/plans": { "get": {} },
+    "/api/v1/me/subscription": { "get": {} },
+    "/api/v1/billing/checkout": { "post": {} },
+    "/api/v1/billing/portal": { "post": {} },
+    "/api/v1/admin/subscriptions/grant": { "post": {} },
+    "/api/v1/admin/subscriptions/revoke": { "post": {} },
+    "/api/v1/admin/stats/overview": { "get": {} },
+    "/api/v1/admin/movies": { "get": {}, "post": {} },
+    "/api/v1/admin/movies/{id}/publish": { "post": {} },
+    "/api/v1/admin/movies/{id}/unpublish": { "post": {} },
+    "/api/v1/admin/audit-logs": { "get": {} },
+    "/api/v1/admin/media/uploads": {
+      "post": {
+        "summary": "Start a local image or private movie upload",
+        "security": [{ "sessionCookie": [] }],
+        "requestBody": { "required": true, "content": { "application/json": { "schema": {
+          "type": "object", "required": ["filename", "kind", "contentType", "size"], "additionalProperties": false,
+          "properties": {
+            "filename": { "type": "string", "maxLength": 255 },
+            "kind": { "type": "string", "enum": ["image", "video"] },
+            "contentType": { "type": "string", "enum": ["image/jpeg", "image/png", "image/webp", "video/mp4", "video/webm"] },
+            "size": { "type": "integer", "minimum": 1, "maximum": 2147483648 }
+          }
+        } } } },
+        "responses": { "201": { "description": "Envelope with upload id and chunkSize (4194304 bytes)" }, "401": { "description": "Sign in required" }, "403": { "description": "Editor permission required" }, "413": { "description": "Image exceeds 10 MiB or movie exceeds 2 GiB" } }
+      }
+    },
+    "/api/v1/admin/media/uploads/{id}": {
+      "parameters": [{ "$ref": "#/components/parameters/UploadId" }],
+      "put": {
+        "summary": "Append a chunk at the expected byte offset",
+        "security": [{ "sessionCookie": [] }],
+        "parameters": [{ "name": "offset", "in": "query", "required": true, "schema": { "type": "integer", "minimum": 0 } }],
+        "requestBody": { "required": true, "content": { "application/octet-stream": { "schema": { "type": "string", "format": "binary" } } } },
+        "responses": { "200": { "description": "Envelope containing the next offset" }, "409": { "description": "Wrong offset" }, "413": { "description": "Chunk too large" } }
+      },
+      "delete": { "summary": "Cancel an owned pending upload", "security": [{ "sessionCookie": [] }], "responses": { "200": { "description": "Pending upload cancelled" } } }
+    },
+    "/api/v1/admin/media/uploads/{id}/complete": {
+      "parameters": [{ "$ref": "#/components/parameters/UploadId" }],
+      "post": { "summary": "Validate and finalize a file", "security": [{ "sessionCookie": [] }], "responses": { "200": { "description": "Envelope containing a MediaUploadReceipt; only images include a public URL" }, "409": { "description": "Incomplete upload" }, "415": { "description": "File signature does not match MIME type" } } }
+    },
+    "/api/v1/media/images/{id}": {
+      "parameters": [{ "$ref": "#/components/parameters/UploadId" }],
+      "get": { "summary": "Serve a completed public image, never a movie original", "responses": { "200": { "description": "JPEG, PNG or WebP bytes" }, "404": { "description": "Image not found" } } }
+    }
+  },
+  "components": {
+    "securitySchemes": { "sessionCookie": { "type": "apiKey", "in": "cookie", "name": "nmedia_session" } },
+    "parameters": { "UploadId": { "name": "id", "in": "path", "required": true, "schema": { "type": "string", "format": "uuid" } } },
+    "schemas": {
+      "HeroItem": { "type": "object", "required": ["id", "slug", "title", "synopsis", "year", "runtimeMin", "ageRating", "accessLevel", "posterUrl", "backdropUrl", "rating", "genres", "eyebrow", "accent", "ctaLabel"], "properties": { "id": { "type": "string" }, "slug": { "type": "string" }, "title": { "type": "string" }, "synopsis": { "type": "string" }, "year": { "type": "integer" }, "runtimeMin": { "type": "integer" }, "ageRating": { "type": "string" }, "accessLevel": { "type": "string", "enum": ["free_with_ads", "premium"] }, "posterUrl": { "type": "string" }, "backdropUrl": { "type": "string" }, "rating": { "type": "number" }, "genres": { "type": "array", "items": { "type": "string" } }, "eyebrow": { "type": "string" }, "accent": { "type": "string" }, "ctaLabel": { "type": "string" } } },
+      "HomeRow": { "type": "object", "required": ["id", "title", "type", "items"], "properties": { "id": { "type": "string" }, "title": { "type": "string" }, "type": { "type": "string", "enum": ["manual", "auto"] }, "items": { "type": "array", "items": { "$ref": "#/components/schemas/MovieSummary" } } } },
+      "MovieSummary": { "type": "object", "required": ["id", "slug", "title", "synopsis", "year", "runtimeMin", "ageRating", "accessLevel", "posterUrl", "backdropUrl", "rating", "genres"], "properties": { "id": { "type": "string" }, "slug": { "type": "string" }, "title": { "type": "string" }, "synopsis": { "type": "string" }, "year": { "type": "integer" }, "runtimeMin": { "type": "integer" }, "ageRating": { "type": "string" }, "accessLevel": { "type": "string", "enum": ["free_with_ads", "premium"] }, "posterUrl": { "type": "string" }, "backdropUrl": { "type": "string" }, "rating": { "type": "number" }, "genres": { "type": "array", "items": { "type": "string" } } } },
+      "HeroSlide": { "type": "object", "required": ["id", "movieId", "eyebrow", "accent", "ctaLabel", "active", "order"], "properties": { "id": { "type": "string" }, "movieId": { "type": "string" }, "eyebrow": { "type": "string" }, "accent": { "type": "string" }, "ctaLabel": { "type": "string" }, "active": { "type": "boolean" }, "order": { "type": "integer" }, "startAt": { "type": ["string", "null"], "format": "date-time" }, "endAt": { "type": ["string", "null"], "format": "date-time" } } },
+      "HomeResponse": { "type": "object", "required": ["hero", "heroes", "rows"], "properties": { "hero": { "$ref": "#/components/schemas/HeroItem" }, "heroes": { "type": "array", "maxItems": 8, "items": { "$ref": "#/components/schemas/HeroItem" } }, "heroSlides": { "type": "array", "maxItems": 8, "items": { "$ref": "#/components/schemas/HeroSlide" } }, "rows": { "type": "array", "items": { "$ref": "#/components/schemas/HomeRow" } } } },
+      "HomeResponseEnvelope": { "type": "object", "required": ["data"], "properties": { "data": { "$ref": "#/components/schemas/HomeResponse" } } }
+    }
+  }
+}

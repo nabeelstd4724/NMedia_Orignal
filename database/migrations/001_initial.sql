@@ -1,0 +1,6 @@
+-- Placeholder for the first SQLite schema migration.
+-- Keep schema changes isolated from application code.
+-- Phase 2 repository contract (to implement when SQLite is introduced):
+-- users(id TEXT PRIMARY KEY, email TEXT UNIQUE NOT NULL, password_hash TEXT NOT NULL,
+--       status TEXT NOT NULL CHECK(status IN ('active','suspended','deleted')), created_at TEXT NOT NULL)
+-- sessions(token_hash TEXT PRIMARY KEY, user_id TEXT NOT NULL REFERENCES users(id), expires_at INTEGER NOT NULL)

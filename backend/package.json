@@ -1,0 +1,25 @@
+{
+  "name": "@nmedia/backend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/backend/src/server.js",
+    "dev": "tsx watch src/server.ts",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "smoke": "tsx src/smoke.ts && tsx src/media/upload-smoke.ts && tsx src/media/video-smoke.ts && tsx src/readiness/role-audit.ts && tsx src/database/audit-smoke.ts && tsx src/database/catalog-smoke.ts && tsx src/database/billing-smoke.ts && tsx src/database/ad-smoke.ts && tsx src/ads/vast-diagnostics-smoke.ts && tsx src/ads/creative-processing-smoke.ts && tsx src/database/homepage-smoke.ts && tsx src/database/settings-smoke.ts && tsx src/auth/totp-smoke.ts && tsx --tsconfig ../frontend/tsconfig.json ../frontend/src/services/uploads.smoke.ts"
+  },
+  "dependencies": {
+    "@fastify/cookie": "^11.1.3",
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "better-sqlite3": "^13.0.3",
+    "fastify": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^9.6.0",
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.3"
+  }
+}

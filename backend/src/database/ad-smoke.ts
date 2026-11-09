@@ -1,0 +1,40 @@
+import assert from 'node:assert/strict';
+import { mkdtempSync, rmSync } from 'node:fs';
+import { join } from 'node:path';
+import { SQLiteAdRepository } from './ad-repository.js';
+import { AdService } from '../ads/service.js';
+
+const root = mkdtempSync(join(process.cwd(), '.ads-test-'));
+const path = join(root, 'ads.sqlite');
+try {
+  const defaults = { adsEnabled: true, midrollIntervalMin: 12, skipAfterSec: 5, maxAdsPerSession: 4, fallbackVastTagUrl: 'https://ads.example.test/fallback.xml' };
+  const first = new SQLiteAdRepository(path, defaults);
+  assert.equal((await first.listCampaigns()).length, 1);
+  const created = await first.createCampaign({ name: 'Smoke Campaign', active: true, startsAt: '2020-01-01T00:00:00.000Z', endsAt: '2099-01-01T00:00:00.000Z', placements: ['preroll'], priority: 20, weight: 10, kind: 'hosted', mediaUrl: 'https://cdn.example.test/smoke.mp4', durationSec: 10, targeting: { countries: ['US'], genres: ['Drama'] }, impressionCap: 1000, frequencyCap: 3 });
+  assert.equal((await first.updateCampaign(created.id, { active: false }))?.active, false);
+  assert.deepEqual(await first.recordEvent({ eventId: 'evt-1', sessionKey: 's-1', campaignId: created.id, event: 'impression', occurredAt: new Date().toISOString() }), { accepted: true, duplicate: false });
+  assert.deepEqual(await first.recordEvent({ eventId: 'evt-1', sessionKey: 's-1', campaignId: created.id, event: 'impression', occurredAt: new Date().toISOString() }), { accepted: true, duplicate: true });
+  await first.recordEvent({ eventId: 'evt-2', sessionKey: 's-1', campaignId: created.id, event: 'start', occurredAt: '2026-10-20T10:00:00.000Z' });
+  await first.recordEvent({ eventId: 'evt-3', sessionKey: 's-1', campaignId: created.id, event: 'error', errorCode: 'MEDIAFILE_NOT_FOUND', errorMessage: 'Creative was unavailable', occurredAt: '2026-10-20T10:01:00.000Z' });
+  assert.equal((await first.report({ from: '2026-10-20T00:00:00.000Z', to: '2026-10-20T23:59:59.999Z' })).find((row) => row.campaignId === created.id)?.starts, 1);
+  assert.deepEqual((await first.errorReport()).find((row) => row.campaignId === created.id), { campaignId: created.id, errorCode: 'MEDIAFILE_NOT_FOUND', errors: 1, lastSeenAt: '2026-10-20T10:01:00.000Z' });
+  await first.saveSettings({ ...defaults, prerollEnabled: false, midrollEnabled: true, anonymousAdsEnabled: false, testMode: true });
+  assert.equal((await first.getSettings()).prerollEnabled, false);
+  assert.equal(await new AdService(first).select('preroll', 's-1'), null);
+  await first.saveSettings(defaults);
+  first.close();
+  const reopened = new SQLiteAdRepository(path, defaults);
+  const readBack = (await reopened.listCampaigns()).find((campaign) => campaign.id === created.id);
+  assert.equal(Boolean(readBack), true);
+  assert.deepEqual(readBack?.targeting, { countries: ['US'], genres: ['Drama'] });
+  assert.equal(readBack?.impressionCap, 1000);
+  const exclusion = await reopened.createExclusion({ scope: 'title', targetId: 'mov_smoke' });
+  assert.equal((await reopened.listExclusions()).some((item) => item.id === exclusion.id && item.scope === 'title'), true);
+  assert.equal(await new AdService(reopened).select('preroll', 's-1', { movieId: 'mov_smoke' }), null);
+  assert.equal(await reopened.deleteExclusion(exclusion.id), true);
+  const collectionExclusion = await reopened.createExclusion({ scope: 'collection', targetId: 'col_smoke' });
+  assert.equal(await new AdService(reopened).select('preroll', 's-1', { collectionIds: ['col_smoke'] }), null);
+  assert.equal(await reopened.deleteExclusion(collectionExclusion.id), true);
+  reopened.close();
+  console.info('Durable ad tests passed: settings seed, campaign CRUD, event idempotency and readback.');
+} finally { try { rmSync(root, { recursive: true, force: true, maxRetries: 5, retryDelay: 100 }); } catch (cause) { if (process.platform !== 'win32') throw cause; } }

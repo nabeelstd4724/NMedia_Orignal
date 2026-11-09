@@ -1,0 +1,3476 @@
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+⚠ Found a change in next.config.mjs. Restarting the server to apply the changes...
+[browser] Image with src "https://images.unsplash.com/photo-1446776877081-d282a0f896e2?auto=format&fit=crop&w=600&q=80" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[browser] Image with src "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=700&q=85" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[browser] Image with src "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=700&q=85" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <LoadingBoundary name="/" loading={null}>
+      <HTTPAccessFallbackBoundary notFound={{...}} forbidden={undefined} unauthorized={undefined}>
+        <HTTPAccessFallbackErrorBoundary pathname="/" notFound={{...}} forbidden={undefined} unauthorized={undefined} ...>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/" tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+                <SegmentViewNode type="page" pagePath="page.tsx">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function HomePage} serverProvidedParams={{...}}>
+                    <HomePage params={Promise} searchParams={Promise}>
+                      <Header>
+                        <header className="site-heade...">
+                          <LinkComponent>
+                          <button>
+                          <nav>
+                          <div className="header-act...">
+                            <form className="search-box" onSubmit={function submitSearch}>
+                              <span>
+                              <input
+                                aria-label="Search titles"
+                                value=""
+                                onChange={function onChange}
+                                placeholder="Search titles"
+-                               style={{caret-color:"transparent"}}
+                              >
+                            ...
+                      ...
+                ...
+              ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <LoadingBoundary name="/" loading={null}>
+      <HTTPAccessFallbackBoundary notFound={{...}} forbidden={undefined} unauthorized={undefined}>
+        <HTTPAccessFallbackErrorBoundary pathname="/" notFound={{...}} forbidden={undefined} unauthorized={undefined} ...>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/" tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+                <SegmentViewNode type="page" pagePath="page.tsx">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function HomePage} serverProvidedParams={{...}}>
+                    <HomePage params={Promise} searchParams={Promise}>
+                      <Header>
+                        <header className="site-heade...">
+                          <LinkComponent>
+                          <button>
+                          <nav>
+                          <div className="header-act...">
+                            <form className="search-box" onSubmit={function submitSearch}>
+                              <span>
+                              <input
+                                aria-label="Search titles"
+                                value=""
+                                onChange={function onChange}
+                                placeholder="Search titles"
+-                               style={{caret-color:"transparent"}}
+                              >
+                            ...
+                      ...
+                ...
+              ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <LoadingBoundary name="/" loading={null}>
+      <HTTPAccessFallbackBoundary notFound={{...}} forbidden={undefined} unauthorized={undefined}>
+        <HTTPAccessFallbackErrorBoundary pathname="/" notFound={{...}} forbidden={undefined} unauthorized={undefined} ...>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/" tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+                <SegmentViewNode type="page" pagePath="page.tsx">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function HomePage} serverProvidedParams={{...}}>
+                    <HomePage params={Promise} searchParams={Promise}>
+                      <Header>
+                        <header className="site-heade...">
+                          <LinkComponent>
+                          <button>
+                          <nav>
+                          <div className="header-act...">
+                            <form className="search-box" onSubmit={function submitSearch}>
+                              <span>
+                              <input
+                                aria-label="Search titles"
+                                value=""
+                                onChange={function onChange}
+                                placeholder="Search titles"
+-                               style={{caret-color:"transparent"}}
+                              >
+                            ...
+                      ...
+                ...
+              ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <LoadingBoundary name="/" loading={null}>
+      <HTTPAccessFallbackBoundary notFound={{...}} forbidden={undefined} unauthorized={undefined}>
+        <HTTPAccessFallbackErrorBoundary pathname="/" notFound={{...}} forbidden={undefined} unauthorized={undefined} ...>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/" tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+                <SegmentViewNode type="page" pagePath="page.tsx">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function HomePage} serverProvidedParams={{...}}>
+                    <HomePage params={Promise} searchParams={Promise}>
+                      <Header>
+                        <header className="site-heade...">
+                          <LinkComponent>
+                          <button>
+                          <nav>
+                          <div className="header-act...">
+                            <form className="search-box" onSubmit={function submitSearch}>
+                              <span>
+                              <input
+                                aria-label="Search titles"
+                                value=""
+                                onChange={function onChange}
+                                placeholder="Search titles"
+-                               style={{caret-color:"transparent"}}
+                              >
+                            ...
+                      ...
+                ...
+              ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="login/" loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/login" tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+                <SegmentViewNode type="page" pagePath="login/page...">
+                  <SegmentTrieNode>
+                  <LoginPage>
+                    <AuthShell>
+                      <main className="auth-page">
+                        <div>
+                        <section className="auth-panel" aria-labelledby="auth-title">
+                          <LinkComponent>
+                          <div>
+                          <AuthForm mode="login">
+                            <form className="auth-form" onSubmit={function submit} noValidate={true}>
+                              <label className="field">
+                                <span>
+                                <input
+                                  type="email"
+                                  value=""
+                                  onChange={function onChange}
+                                  autoComplete="email"
+                                  required={true}
+                                  disabled={false}
+-                                 style={{caret-color:"transparent"}}
+                                >
+                              <label className="field pass...">
+                                <span>
+                                <input
+                                  type="password"
+                                  value=""
+                                  onChange={function onChange}
+                                  autoComplete="current-password"
+                                  required={true}
+                                  minLength={8}
+                                  disabled={false}
+-                                 style={{caret-color:"transparent"}}
+                                >
+                                ...
+                              ...
+                          ...
+                        ...
+                ...
+              ...
+    ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="login/" loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/login" tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+                <SegmentViewNode type="page" pagePath="login/page...">
+                  <SegmentTrieNode>
+                  <LoginPage>
+                    <AuthShell>
+                      <main className="auth-page">
+                        <div>
+                        <section className="auth-panel" aria-labelledby="auth-title">
+                          <LinkComponent>
+                          <div>
+                          <AuthForm mode="login">
+                            <form className="auth-form" onSubmit={function submit} noValidate={true}>
+                              <label className="field">
+                                <span>
+                                <input
+                                  type="email"
+                                  value=""
+                                  onChange={function onChange}
+                                  autoComplete="email"
+                                  required={true}
+                                  disabled={false}
+-                                 style={{caret-color:"transparent"}}
+                                >
+                              <label className="field pass...">
+                                <span>
+                                <input
+                                  type="password"
+                                  value=""
+                                  onChange={function onChange}
+                                  autoComplete="current-password"
+                                  required={true}
+                                  minLength={8}
+                                  disabled={false}
+-                                 style={{caret-color:"transparent"}}
+                                >
+                                ...
+                              ...
+                          ...
+                        ...
+                ...
+              ...
+    ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="login/" loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/login" tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+                <SegmentViewNode type="page" pagePath="login/page...">
+                  <SegmentTrieNode>
+                  <LoginPage>
+                    <AuthShell>
+                      <main className="auth-page">
+                        <div>
+                        <section className="auth-panel" aria-labelledby="auth-title">
+                          <LinkComponent>
+                          <div>
+                          <AuthForm mode="login">
+                            <form className="auth-form" onSubmit={function submit} noValidate={true}>
+                              <label className="field">
+                                <span>
+                                <input
+                                  type="email"
+                                  value=""
+                                  onChange={function onChange}
+                                  autoComplete="email"
+                                  required={true}
+                                  disabled={false}
+-                                 style={{caret-color:"transparent"}}
+                                >
+                              <label className="field pass...">
+                                <span>
+                                <input
+                                  type="password"
+                                  value=""
+                                  onChange={function onChange}
+                                  autoComplete="current-password"
+                                  required={true}
+                                  minLength={8}
+                                  disabled={false}
+-                                 style={{caret-color:"transparent"}}
+                                >
+                                ...
+                              ...
+                          ...
+                        ...
+                ...
+              ...
+    ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="register/" loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/register" tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+                <SegmentViewNode type="page" pagePath="register/p...">
+                  <SegmentTrieNode>
+                  <RegisterPage>
+                    <AuthShell>
+                      <main className="auth-page">
+                        <div>
+                        <section className="auth-panel" aria-labelledby="auth-title">
+                          <LinkComponent>
+                          <div>
+                          <AuthForm mode="register">
+                            <form className="auth-form" onSubmit={function submit} noValidate={true}>
+                              <label>
+                              <label className="field">
+                                <span>
+                                <input
+                                  type="email"
+                                  value=""
+                                  onChange={function onChange}
+                                  autoComplete="email"
+                                  required={true}
+                                  disabled={false}
+-                                 style={{caret-color:"transparent"}}
+                                >
+                              <label className="field pass...">
+                                <span>
+                                <input
+                                  type="password"
+                                  value=""
+                                  onChange={function onChange}
+                                  autoComplete="new-password"
+                                  required={true}
+                                  minLength={8}
+                                  disabled={false}
+-                                 style={{caret-color:"transparent"}}
+                                >
+                                ...
+                              <div>
+                              <label className="terms-check">
+                                <input
+                                  type="checkbox"
+                                  checked={false}
+                                  onChange={function onChange}
+                                  disabled={false}
+-                                 style={{caret-color:"transparent"}}
+                                >
+                                ...
+                              ...
+                          ...
+                        ...
+                ...
+              ...
+    ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="register/" loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/register" tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+                <SegmentViewNode type="page" pagePath="register/p...">
+                  <SegmentTrieNode>
+                  <RegisterPage>
+                    <AuthShell>
+                      <main className="auth-page">
+                        <div>
+                        <section className="auth-panel" aria-labelledby="auth-title">
+                          <LinkComponent>
+                          <div>
+                          <AuthForm mode="register">
+                            <form className="auth-form" onSubmit={function submit} noValidate={true}>
+                              <label className="field">
+                                <span>
+                                <input
+                                  value=""
+                                  onChange={function onChange}
+                                  autoComplete="name"
+                                  required={true}
+                                  minLength={2}
+                                  disabled={false}
+-                                 style={{caret-color:"transparent"}}
+                                >
+                              <label className="field">
+                                <span>
+                                <input
+                                  type="email"
+                                  value=""
+                                  onChange={function onChange}
+                                  autoComplete="email"
+                                  required={true}
+                                  disabled={false}
+-                                 style={{caret-color:"transparent"}}
+                                >
+                              <label className="field pass...">
+                                <span>
+                                <input
+                                  type="password"
+                                  value=""
+                                  onChange={function onChange}
+                                  autoComplete="new-password"
+                                  required={true}
+                                  minLength={8}
+                                  disabled={false}
+-                                 style={{caret-color:"transparent"}}
+                                >
+                                ...
+                              <div>
+                              <label className="terms-check">
+                                <input
+                                  type="checkbox"
+                                  checked={false}
+                                  onChange={function onChange}
+                                  disabled={false}
+-                                 style={{caret-color:"transparent"}}
+                                >
+                                ...
+                              ...
+                          ...
+                        ...
+                ...
+              ...
+    ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/browse" tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="browse/pag...">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function BrowsePage} serverProvidedParams={{...}}>
+              <BrowsePage params={Promise} searchParams={Promise}>
+                <Suspense fallback={<Fragment>}>
+                  <BrowseContent>
+                    <Header>
+                      <header className="site-heade...">
+                        <LinkComponent>
+                        <button>
+                        <nav>
+                        <div className="header-act...">
+                          <form className="search-box" onSubmit={function submitSearch}>
+                            <span>
+                            <input
+                              aria-label="Search titles"
+                              value=""
+                              onChange={function onChange}
+                              placeholder="Search titles"
+-                             style={{caret-color:"transparent"}}
+                            >
+                          ...
+                    <main className="browse-page">
+                      <section>
+                      <CatalogControls filters={{query:"",genre:"", ...}} ...>
+                        <div className="catalog-co..." aria-label="Catalog fi...">
+                          <label className="catalog-se...">
+                            <span>
+                            <input
+                              value=""
+                              onChange={function onChange}
+                              placeholder="Search the library"
+                              aria-label="Search the library"
+-                             style={{caret-color:"transparent"}}
+                            >
+                          ...
+                      ...
+                    ...
+          ...
+        ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/browse" tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="browse/pag...">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function BrowsePage} serverProvidedParams={{...}}>
+              <BrowsePage params={Promise} searchParams={Promise}>
+                <Suspense fallback={<Fragment>}>
+                  <BrowseContent>
+                    <Header>
+                      <header className="site-heade...">
+                        <LinkComponent>
+                        <button>
+                        <nav>
+                        <div className="header-act...">
+                          <form className="search-box" onSubmit={function submitSearch}>
+                            <span>
+                            <input
+                              aria-label="Search titles"
+                              value=""
+                              onChange={function onChange}
+                              placeholder="Search titles"
+-                             style={{caret-color:"transparent"}}
+                            >
+                          ...
+                    <main className="browse-page">
+                      <section>
+                      <CatalogControls filters={{query:"",genre:"", ...}} ...>
+                        <div className="catalog-co..." aria-label="Catalog fi...">
+                          <label className="catalog-se...">
+                            <span>
+                            <input
+                              value=""
+                              onChange={function onChange}
+                              placeholder="Search the library"
+                              aria-label="Search the library"
+-                             style={{caret-color:"transparent"}}
+                            >
+                          ...
+                      ...
+                    ...
+          ...
+        ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/browse" tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="browse/pag...">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function BrowsePage} serverProvidedParams={{...}}>
+              <BrowsePage params={Promise} searchParams={Promise}>
+                <Suspense fallback={<Fragment>}>
+                  <BrowseContent>
+                    <Header>
+                      <header className="site-heade...">
+                        <LinkComponent>
+                        <button>
+                        <nav>
+                        <div className="header-act...">
+                          <form className="search-box" onSubmit={function submitSearch}>
+                            <span>
+                            <input
+                              aria-label="Search titles"
+                              value=""
+                              onChange={function onChange}
+                              placeholder="Search titles"
+-                             style={{caret-color:"transparent"}}
+                            >
+                          ...
+                    <main className="browse-page">
+                      <section>
+                      <CatalogControls filters={{query:"",genre:"", ...}} ...>
+                        <div className="catalog-co..." aria-label="Catalog fi...">
+                          <label className="catalog-se...">
+                            <span>
+                            <input
+                              value=""
+                              onChange={function onChange}
+                              placeholder="Search the library"
+                              aria-label="Search the library"
+-                             style={{caret-color:"transparent"}}
+                            >
+                          ...
+                      ...
+                    ...
+          ...
+        ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <LoadingBoundary name="/" loading={null}>
+      <HTTPAccessFallbackBoundary notFound={{...}} forbidden={undefined} unauthorized={undefined}>
+        <HTTPAccessFallbackErrorBoundary pathname="/" notFound={{...}} forbidden={undefined} unauthorized={undefined} ...>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/" tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+                <SegmentViewNode type="page" pagePath="page.tsx">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function HomePage} serverProvidedParams={{...}}>
+                    <HomePage params={Promise} searchParams={Promise}>
+                      <Header>
+                        <header className="site-heade...">
+                          <LinkComponent>
+                          <button>
+                          <nav>
+                          <div className="header-act...">
+                            <form className="search-box" onSubmit={function submitSearch}>
+                              <span>
+                              <input
+                                aria-label="Search titles"
+                                value=""
+                                onChange={function onChange}
+                                placeholder="Search titles"
+-                               style={{caret-color:"transparent"}}
+                              >
+                            ...
+                      ...
+                ...
+              ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="login/" loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/login" tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+                <SegmentViewNode type="page" pagePath="login/page...">
+                  <SegmentTrieNode>
+                  <LoginPage>
+                    <AuthShell>
+                      <main className="auth-page">
+                        <div>
+                        <section className="auth-panel" aria-labelledby="auth-title">
+                          <LinkComponent>
+                          <div>
+                          <AuthForm mode="login">
+                            <form className="auth-form" onSubmit={function submit} noValidate={true}>
+                              <label className="field">
+                                <span>
+                                <input
+                                  type="email"
+                                  value=""
+                                  onChange={function onChange}
+                                  autoComplete="email"
+                                  required={true}
+                                  disabled={false}
+-                                 style={{caret-color:"transparent"}}
+                                >
+                              <label className="field pass...">
+                                <span>
+                                <input
+                                  type="password"
+                                  value=""
+                                  onChange={function onChange}
+                                  autoComplete="current-password"
+                                  required={true}
+                                  minLength={8}
+                                  disabled={false}
+-                                 style={{caret-color:"transparent"}}
+                                >
+                                ...
+                              ...
+                          ...
+                        ...
+                ...
+              ...
+    ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="register/" loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/register" tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+                <SegmentViewNode type="page" pagePath="register/p...">
+                  <SegmentTrieNode>
+                  <RegisterPage>
+                    <AuthShell>
+                      <main className="auth-page">
+                        <div>
+                        <section className="auth-panel" aria-labelledby="auth-title">
+                          <LinkComponent>
+                          <div>
+                          <AuthForm mode="register">
+                            <form className="auth-form" onSubmit={function submit} noValidate={true}>
+                              <label className="field">
+                                <span>
+                                <input
+                                  value=""
+                                  onChange={function onChange}
+                                  autoComplete="name"
+                                  required={true}
+                                  minLength={2}
+                                  disabled={false}
+-                                 style={{caret-color:"transparent"}}
+                                >
+                              <label className="field">
+                                <span>
+                                <input
+                                  type="email"
+                                  value=""
+                                  onChange={function onChange}
+                                  autoComplete="email"
+                                  required={true}
+                                  disabled={false}
+-                                 style={{caret-color:"transparent"}}
+                                >
+                              <label className="field pass...">
+                                <span>
+                                <input
+                                  type="password"
+                                  value=""
+                                  onChange={function onChange}
+                                  autoComplete="new-password"
+                                  required={true}
+                                  minLength={8}
+                                  disabled={false}
+-                                 style={{caret-color:"transparent"}}
+                                >
+                                ...
+                              <div>
+                              <label className="terms-check">
+                                <input
+                                  type="checkbox"
+                                  checked={false}
+                                  onChange={function onChange}
+                                  disabled={false}
+-                                 style={{caret-color:"transparent"}}
+                                >
+                                ...
+                              ...
+                          ...
+                        ...
+                ...
+              ...
+    ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="register/" loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/register" tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+                <SegmentViewNode type="page" pagePath="register/p...">
+                  <SegmentTrieNode>
+                  <RegisterPage>
+                    <AuthShell>
+                      <main className="auth-page">
+                        <div>
+                        <section className="auth-panel" aria-labelledby="auth-title">
+                          <LinkComponent>
+                          <div>
+                          <AuthForm mode="register">
+                            <form className="auth-form" onSubmit={function submit} noValidate={true}>
+                              <label className="field">
+                                <span>
+                                <input
+                                  value=""
+                                  onChange={function onChange}
+                                  autoComplete="name"
+                                  required={true}
+                                  minLength={2}
+                                  disabled={false}
+-                                 style={{caret-color:"transparent"}}
+                                >
+                              <label className="field">
+                                <span>
+                                <input
+                                  type="email"
+                                  value=""
+                                  onChange={function onChange}
+                                  autoComplete="email"
+                                  required={true}
+                                  disabled={false}
+-                                 style={{caret-color:"transparent"}}
+                                >
+                              <label className="field pass...">
+                                <span>
+                                <input
+                                  type="password"
+                                  value=""
+                                  onChange={function onChange}
+                                  autoComplete="new-password"
+                                  required={true}
+                                  minLength={8}
+                                  disabled={false}
+-                                 style={{caret-color:"transparent"}}
+                                >
+                                ...
+                              <div>
+                              <label className="terms-check">
+                                <input
+                                  type="checkbox"
+                                  checked={false}
+                                  onChange={function onChange}
+                                  disabled={false}
+-                                 style={{caret-color:"transparent"}}
+                                >
+                                ...
+                              ...
+                          ...
+                        ...
+                ...
+              ...
+    ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/browse" tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="browse/pag...">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function BrowsePage} serverProvidedParams={{...}}>
+              <BrowsePage params={Promise} searchParams={Promise}>
+                <Suspense fallback={<Fragment>}>
+                  <BrowseContent>
+                    <Header>
+                      <header className="site-heade...">
+                        <LinkComponent>
+                        <button>
+                        <nav>
+                        <div className="header-act...">
+                          <form className="search-box" onSubmit={function submitSearch}>
+                            <span>
+                            <input
+                              aria-label="Search titles"
+                              value=""
+                              onChange={function onChange}
+                              placeholder="Search titles"
+-                             style={{caret-color:"transparent"}}
+                            >
+                          ...
+                    <main className="browse-page">
+                      <section>
+                      <CatalogControls filters={{query:"",genre:"", ...}} ...>
+                        <div className="catalog-co..." aria-label="Catalog fi...">
+                          <label className="catalog-se...">
+                            <span>
+                            <input
+                              value=""
+                              onChange={function onChange}
+                              placeholder="Search the library"
+                              aria-label="Search the library"
+-                             style={{caret-color:"transparent"}}
+                            >
+                          ...
+                      ...
+                    ...
+          ...
+        ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/browse" tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="browse/pag...">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function BrowsePage} serverProvidedParams={{...}}>
+              <BrowsePage params={Promise} searchParams={Promise}>
+                <Suspense fallback={<Fragment>}>
+                  <BrowseContent>
+                    <Header>
+                      <header className="site-heade...">
+                        <LinkComponent>
+                        <button>
+                        <nav>
+                        <div className="header-act...">
+                          <form className="search-box" onSubmit={function submitSearch}>
+                            <span>
+                            <input
+                              aria-label="Search titles"
+                              value=""
+                              onChange={function onChange}
+                              placeholder="Search titles"
+-                             style={{caret-color:"transparent"}}
+                            >
+                          ...
+                    <main className="browse-page">
+                      <section>
+                      <CatalogControls filters={{query:"",genre:"", ...}} ...>
+                        <div className="catalog-co..." aria-label="Catalog fi...">
+                          <label className="catalog-se...">
+                            <span>
+                            <input
+                              value=""
+                              onChange={function onChange}
+                              placeholder="Search the library"
+                              aria-label="Search the library"
+-                             style={{caret-color:"transparent"}}
+                            >
+                          ...
+                      ...
+                    ...
+          ...
+        ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/browse" tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="browse/pag...">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function BrowsePage} serverProvidedParams={{...}}>
+              <BrowsePage params={Promise} searchParams={Promise}>
+                <Suspense fallback={<Fragment>}>
+                  <BrowseContent>
+                    <Header>
+                      <header className="site-heade...">
+                        <LinkComponent>
+                        <button>
+                        <nav>
+                        <div className="header-act...">
+                          <form className="search-box" onSubmit={function submitSearch}>
+                            <span>
+                            <input
+                              aria-label="Search titles"
+                              value=""
+                              onChange={function onChange}
+                              placeholder="Search titles"
+-                             style={{caret-color:"transparent"}}
+                            >
+                          ...
+                    <main className="browse-page">
+                      <section>
+                      <CatalogControls filters={{query:"",genre:"", ...}} ...>
+                        <div className="catalog-co..." aria-label="Catalog fi...">
+                          <label className="catalog-se...">
+                            <span>
+                            <input
+                              value=""
+                              onChange={function onChange}
+                              placeholder="Search the library"
+                              aria-label="Search the library"
+-                             style={{caret-color:"transparent"}}
+                            >
+                          ...
+                      ...
+                    ...
+          ...
+        ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/browse" tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="browse/pag...">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function BrowsePage} serverProvidedParams={{...}}>
+              <BrowsePage params={Promise} searchParams={Promise}>
+                <Suspense fallback={<Fragment>}>
+                  <BrowseContent>
+                    <Header>
+                      <header className="site-heade...">
+                        <LinkComponent>
+                        <button>
+                        <nav>
+                        <div className="header-act...">
+                          <form className="search-box" onSubmit={function submitSearch}>
+                            <span>
+                            <input
+                              aria-label="Search titles"
+                              value=""
+                              onChange={function onChange}
+                              placeholder="Search titles"
+-                             style={{caret-color:"transparent"}}
+                            >
+                          ...
+                    <main className="browse-page">
+                      <section>
+                      <CatalogControls filters={{query:"",genre:"", ...}} ...>
+                        <div className="catalog-co..." aria-label="Catalog fi...">
+                          <label className="catalog-se...">
+                            <span>
+                            <input
+                              value=""
+                              onChange={function onChange}
+                              placeholder="Search the library"
+                              aria-label="Search the library"
+-                             style={{caret-color:"transparent"}}
+                            >
+                          ...
+                      ...
+                    ...
+          ...
+        ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="afterglow-..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/movie/aft..." tree={[...]} params={{slug:"afte..."}} renderTree={{...}} ...>
+                <SegmentViewNode type="page" pagePath="movie/[slu...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function MoviePage} serverProvidedParams={{...}}>
+                    <MoviePage params={Promise} searchParams={Promise}>
+                      <Header>
+                        <header className="site-heade...">
+                          <LinkComponent>
+                          <button>
+                          <nav>
+                          <div className="header-act...">
+                            <form className="search-box" onSubmit={function submitSearch}>
+                              <span>
+                              <input
+                                aria-label="Search titles"
+                                value=""
+                                onChange={function onChange}
+                                placeholder="Search titles"
+-                               style={{caret-color:"transparent"}}
+                              >
+                            ...
+                      ...
+                ...
+              ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="afterglow-..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/movie/aft..." tree={[...]} params={{slug:"afte..."}} renderTree={{...}} ...>
+                <SegmentViewNode type="page" pagePath="movie/[slu...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function MoviePage} serverProvidedParams={{...}}>
+                    <MoviePage params={Promise} searchParams={Promise}>
+                      <Header>
+                        <header className="site-heade...">
+                          <LinkComponent>
+                          <button>
+                          <nav>
+                          <div className="header-act...">
+                            <form className="search-box" onSubmit={function submitSearch}>
+                              <span>
+                              <input
+                                aria-label="Search titles"
+                                value=""
+                                onChange={function onChange}
+                                placeholder="Search titles"
+-                               style={{caret-color:"transparent"}}
+                              >
+                            ...
+                      ...
+                ...
+              ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="afterglow-..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/movie/aft..." tree={[...]} params={{slug:"afte..."}} renderTree={{...}} ...>
+                <SegmentViewNode type="page" pagePath="movie/[slu...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function MoviePage} serverProvidedParams={{...}}>
+                    <MoviePage params={Promise} searchParams={Promise}>
+                      <Header>
+                        <header className="site-heade...">
+                          <LinkComponent>
+                          <button>
+                          <nav>
+                          <div className="header-act...">
+                            <form className="search-box" onSubmit={function submitSearch}>
+                              <span>
+                              <input
+                                aria-label="Search titles"
+                                value=""
+                                onChange={function onChange}
+                                placeholder="Search titles"
+-                               style={{caret-color:"transparent"}}
+                              >
+                            ...
+                      ...
+                ...
+              ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="afterglow-..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/movie/aft..." tree={[...]} params={{slug:"afte..."}} renderTree={{...}} ...>
+                <SegmentViewNode type="page" pagePath="movie/[slu...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function MoviePage} serverProvidedParams={{...}}>
+                    <MoviePage params={Promise} searchParams={Promise}>
+                      <Header>
+                        <header className="site-heade...">
+                          <LinkComponent>
+                          <button>
+                          <nav>
+                          <div className="header-act...">
+                            <form className="search-box" onSubmit={function submitSearch}>
+                              <span>
+                              <input
+                                aria-label="Search titles"
+                                value=""
+                                onChange={function onChange}
+                                placeholder="Search titles"
+-                               style={{caret-color:"transparent"}}
+                              >
+                            ...
+                      ...
+                ...
+              ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="afterglow-..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/watch/aft..." tree={[...]} params={{slug:"afte..."}} renderTree={{...}} ...>
+                <SegmentViewNode type="page" pagePath="watch/[slu...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function WatchPage} serverProvidedParams={{...}}>
+                    <WatchPage params={Promise} searchParams={Promise}>
+                      <Header>
+                        <header className="site-heade...">
+                          <LinkComponent>
+                          <button>
+                          <nav>
+                          <div className="header-act...">
+                            <form className="search-box" onSubmit={function submitSearch}>
+                              <span>
+                              <input
+                                aria-label="Search titles"
+                                value=""
+                                onChange={function onChange}
+                                placeholder="Search titles"
+-                               style={{caret-color:"transparent"}}
+                              >
+                            ...
+                      ...
+                ...
+              ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="afterglow-..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/watch/aft..." tree={[...]} params={{slug:"afte..."}} renderTree={{...}} ...>
+                <SegmentViewNode type="page" pagePath="watch/[slu...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function WatchPage} serverProvidedParams={{...}}>
+                    <WatchPage params={Promise} searchParams={Promise}>
+                      <Header>
+                        <header className="site-heade...">
+                          <LinkComponent>
+                          <button>
+                          <nav>
+                          <div className="header-act...">
+                            <form className="search-box" onSubmit={function submitSearch}>
+                              <span>
+                              <input
+                                aria-label="Search titles"
+                                value=""
+                                onChange={function onChange}
+                                placeholder="Search titles"
+-                               style={{caret-color:"transparent"}}
+                              >
+                            ...
+                      ...
+                ...
+              ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="afterglow-..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/watch/aft..." tree={[...]} params={{slug:"afte..."}} renderTree={{...}} ...>
+                <SegmentViewNode type="page" pagePath="watch/[slu...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function WatchPage} serverProvidedParams={{...}}>
+                    <WatchPage params={Promise} searchParams={Promise}>
+                      <Header>
+                        <header className="site-heade...">
+                          <LinkComponent>
+                          <button>
+                          <nav>
+                          <div className="header-act...">
+                            <form className="search-box" onSubmit={function submitSearch}>
+                              <span>
+                              <input
+                                aria-label="Search titles"
+                                value=""
+                                onChange={function onChange}
+                                placeholder="Search titles"
+-                               style={{caret-color:"transparent"}}
+                              >
+                            ...
+                      ...
+                ...
+              ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="afterglow-..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/watch/aft..." tree={[...]} params={{slug:"afte..."}} renderTree={{...}} ...>
+                <SegmentViewNode type="page" pagePath="watch/[slu...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function WatchPage} serverProvidedParams={{...}}>
+                    <WatchPage params={Promise} searchParams={Promise}>
+                      <Header>
+                        <header className="site-heade...">
+                          <LinkComponent>
+                          <button>
+                          <nav>
+                          <div className="header-act...">
+                            <form className="search-box" onSubmit={function submitSearch}>
+                              <span>
+                              <input
+                                aria-label="Search titles"
+                                value=""
+                                onChange={function onChange}
+                                placeholder="Search titles"
+-                               style={{caret-color:"transparent"}}
+                              >
+                            ...
+                      ...
+                ...
+              ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="/_not-found/" loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/this-page..." tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+                <SegmentViewNode type="page" pagePath="not-found.tsx">
+                  <SegmentTrieNode>
+                  <NotFound>
+                    <Header>
+                      <header className="site-heade...">
+                        <LinkComponent>
+                        <button>
+                        <nav>
+                        <div className="header-act...">
+                          <form className="search-box" onSubmit={function submitSearch}>
+                            <span>
+                            <input
+                              aria-label="Search titles"
+                              value=""
+                              onChange={function onChange}
+                              placeholder="Search titles"
+-                             style={{caret-color:"transparent"}}
+                            >
+                          ...
+                    ...
+                ...
+              ...
+    ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <LoadingBoundary name="/" loading={null}>
+      <HTTPAccessFallbackBoundary notFound={{...}} forbidden={undefined} unauthorized={undefined}>
+        <HTTPAccessFallbackErrorBoundary pathname="/" notFound={{...}} forbidden={undefined} unauthorized={undefined} ...>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/" tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+                <SegmentViewNode type="page" pagePath="page.tsx">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function HomePage} serverProvidedParams={{...}}>
+                    <HomePage params={Promise} searchParams={Promise}>
+                      <Header>
+                        <header className="site-heade...">
+                          <LinkComponent>
+                          <button>
+                          <nav>
+                          <div className="header-act...">
+                            <form className="search-box" onSubmit={function submitSearch}>
+                              <span>
+                              <input
+                                aria-label="Search titles"
+                                value=""
+                                onChange={function onChange}
+                                placeholder="Search titles"
+-                               style={{caret-color:"transparent"}}
+                              >
+                            ...
+                      ...
+                ...
+              ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <LoadingBoundary name="/" loading={null}>
+      <HTTPAccessFallbackBoundary notFound={{...}} forbidden={undefined} unauthorized={undefined}>
+        <HTTPAccessFallbackErrorBoundary pathname="/" notFound={{...}} forbidden={undefined} unauthorized={undefined} ...>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/" tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+                <SegmentViewNode type="page" pagePath="page.tsx">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function HomePage} serverProvidedParams={{...}}>
+                    <HomePage params={Promise} searchParams={Promise}>
+                      <Header>
+                        <header className="site-heade...">
+                          <LinkComponent>
+                          <button>
+                          <nav>
+                          <div className="header-act...">
+                            <form className="search-box" onSubmit={function submitSearch}>
+                              <span>
+                              <input
+                                aria-label="Search titles"
+                                value=""
+                                onChange={function onChange}
+                                placeholder="Search titles"
+-                               style={{caret-color:"transparent"}}
+                              >
+                            ...
+                      ...
+                ...
+              ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="login/" loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/login" tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+                <SegmentViewNode type="page" pagePath="login/page...">
+                  <SegmentTrieNode>
+                  <LoginPage>
+                    <AuthShell>
+                      <main className="auth-page">
+                        <div>
+                        <section className="auth-panel" aria-labelledby="auth-title">
+                          <LinkComponent>
+                          <div>
+                          <AuthForm mode="login">
+                            <form className="auth-form" onSubmit={function submit} noValidate={true}>
+                              <label className="field">
+                                <span>
+                                <input
+                                  type="email"
+                                  value=""
+                                  onChange={function onChange}
+                                  autoComplete="email"
+                                  required={true}
+                                  disabled={false}
+-                                 style={{caret-color:"transparent"}}
+                                >
+                              <label className="field pass...">
+                                <span>
+                                <input
+                                  type="password"
+                                  value=""
+                                  onChange={function onChange}
+                                  autoComplete="current-password"
+                                  required={true}
+                                  minLength={8}
+                                  disabled={false}
+-                                 style={{caret-color:"transparent"}}
+                                >
+                                ...
+                              ...
+                          ...
+                        ...
+                ...
+              ...
+    ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="login/" loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/login" tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+                <SegmentViewNode type="page" pagePath="login/page...">
+                  <SegmentTrieNode>
+                  <LoginPage>
+                    <AuthShell>
+                      <main className="auth-page">
+                        <div>
+                        <section className="auth-panel" aria-labelledby="auth-title">
+                          <LinkComponent>
+                          <div>
+                          <AuthForm mode="login">
+                            <form className="auth-form" onSubmit={function submit} noValidate={true}>
+                              <label className="field">
+                                <span>
+                                <input
+                                  type="email"
+                                  value=""
+                                  onChange={function onChange}
+                                  autoComplete="email"
+                                  required={true}
+                                  disabled={false}
+-                                 style={{caret-color:"transparent"}}
+                                >
+                              <label className="field pass...">
+                                <span>
+                                <input
+                                  type="password"
+                                  value=""
+                                  onChange={function onChange}
+                                  autoComplete="current-password"
+                                  required={true}
+                                  minLength={8}
+                                  disabled={false}
+-                                 style={{caret-color:"transparent"}}
+                                >
+                                ...
+                              ...
+                          ...
+                        ...
+                ...
+              ...
+    ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="register/" loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/register" tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+                <SegmentViewNode type="page" pagePath="register/p...">
+                  <SegmentTrieNode>
+                  <RegisterPage>
+                    <AuthShell>
+                      <main className="auth-page">
+                        <div>
+                        <section className="auth-panel" aria-labelledby="auth-title">
+                          <LinkComponent>
+                          <div>
+                          <AuthForm mode="register">
+                            <form className="auth-form" onSubmit={function submit} noValidate={true}>
+                              <label className="field">
+                                <span>
+                                <input
+                                  value=""
+                                  onChange={function onChange}
+                                  autoComplete="name"
+                                  required={true}
+                                  minLength={2}
+                                  disabled={false}
+-                                 style={{caret-color:"transparent"}}
+                                >
+                              <label className="field">
+                                <span>
+                                <input
+                                  type="email"
+                                  value=""
+                                  onChange={function onChange}
+                                  autoComplete="email"
+                                  required={true}
+                                  disabled={false}
+-                                 style={{caret-color:"transparent"}}
+                                >
+                              <label className="field pass...">
+                                <span>
+                                <input
+                                  type="password"
+                                  value=""
+                                  onChange={function onChange}
+                                  autoComplete="new-password"
+                                  required={true}
+                                  minLength={8}
+                                  disabled={false}
+-                                 style={{caret-color:"transparent"}}
+                                >
+                                ...
+                              <div>
+                              <label className="terms-check">
+                                <input
+                                  type="checkbox"
+                                  checked={false}
+                                  onChange={function onChange}
+                                  disabled={false}
+-                                 style={{caret-color:"transparent"}}
+                                >
+                                ...
+                              ...
+                          ...
+                        ...
+                ...
+              ...
+    ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/browse" tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="browse/pag...">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function BrowsePage} serverProvidedParams={{...}}>
+              <BrowsePage params={Promise} searchParams={Promise}>
+                <Suspense fallback={<Fragment>}>
+                  <BrowseContent>
+                    <Header>
+                      <header className="site-heade...">
+                        <LinkComponent>
+                        <button>
+                        <nav>
+                        <div className="header-act...">
+                          <form className="search-box" onSubmit={function submitSearch}>
+                            <span>
+                            <input
+                              aria-label="Search titles"
+                              value=""
+                              onChange={function onChange}
+                              placeholder="Search titles"
+-                             style={{caret-color:"transparent"}}
+                            >
+                          ...
+                    <main className="browse-page">
+                      <section>
+                      <CatalogControls filters={{query:"",genre:"", ...}} ...>
+                        <div className="catalog-co..." aria-label="Catalog fi...">
+                          <label className="catalog-se...">
+                            <span>
+                            <input
+                              value=""
+                              onChange={function onChange}
+                              placeholder="Search the library"
+                              aria-label="Search the library"
+-                             style={{caret-color:"transparent"}}
+                            >
+                          ...
+                      ...
+                    ...
+          ...
+        ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/browse" tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="browse/pag...">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function BrowsePage} serverProvidedParams={{...}}>
+              <BrowsePage params={Promise} searchParams={Promise}>
+                <Suspense fallback={<Fragment>}>
+                  <BrowseContent>
+                    <Header>
+                      <header className="site-heade...">
+                        <LinkComponent>
+                        <button>
+                        <nav>
+                        <div className="header-act...">
+                          <form className="search-box" onSubmit={function submitSearch}>
+                            <span>
+                            <input
+                              aria-label="Search titles"
+                              value=""
+                              onChange={function onChange}
+                              placeholder="Search titles"
+-                             style={{caret-color:"transparent"}}
+                            >
+                          ...
+                    <main className="browse-page">
+                      <section>
+                      <CatalogControls filters={{query:"",genre:"", ...}} ...>
+                        <div className="catalog-co..." aria-label="Catalog fi...">
+                          <label className="catalog-se...">
+                            <span>
+                            <input
+                              value=""
+                              onChange={function onChange}
+                              placeholder="Search the library"
+                              aria-label="Search the library"
+-                             style={{caret-color:"transparent"}}
+                            >
+                          ...
+                      ...
+                    ...
+          ...
+        ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/browse" tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="browse/pag...">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function BrowsePage} serverProvidedParams={{...}}>
+              <BrowsePage params={Promise} searchParams={Promise}>
+                <Suspense fallback={<Fragment>}>
+                  <BrowseContent>
+                    <Header>
+                      <header className="site-heade...">
+                        <LinkComponent>
+                        <button>
+                        <nav>
+                        <div className="header-act...">
+                          <form className="search-box" onSubmit={function submitSearch}>
+                            <span>
+                            <input
+                              aria-label="Search titles"
+                              value=""
+                              onChange={function onChange}
+                              placeholder="Search titles"
+-                             style={{caret-color:"transparent"}}
+                            >
+                          ...
+                    <main className="browse-page">
+                      <section>
+                      <CatalogControls filters={{query:"",genre:"", ...}} ...>
+                        <div className="catalog-co..." aria-label="Catalog fi...">
+                          <label className="catalog-se...">
+                            <span>
+                            <input
+                              value=""
+                              onChange={function onChange}
+                              placeholder="Search the library"
+                              aria-label="Search the library"
+-                             style={{caret-color:"transparent"}}
+                            >
+                          ...
+                      ...
+                    ...
+          ...
+        ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/browse" tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="browse/pag...">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function BrowsePage} serverProvidedParams={{...}}>
+              <BrowsePage params={Promise} searchParams={Promise}>
+                <Suspense fallback={<Fragment>}>
+                  <BrowseContent>
+                    <Header>
+                      <header className="site-heade...">
+                        <LinkComponent>
+                        <button>
+                        <nav>
+                        <div className="header-act...">
+                          <form className="search-box" onSubmit={function submitSearch}>
+                            <span>
+                            <input
+                              aria-label="Search titles"
+                              value=""
+                              onChange={function onChange}
+                              placeholder="Search titles"
+-                             style={{caret-color:"transparent"}}
+                            >
+                          ...
+                    <main className="browse-page">
+                      <section>
+                      <CatalogControls filters={{query:"",genre:"", ...}} ...>
+                        <div className="catalog-co..." aria-label="Catalog fi...">
+                          <label className="catalog-se...">
+                            <span>
+                            <input
+                              value=""
+                              onChange={function onChange}
+                              placeholder="Search the library"
+                              aria-label="Search the library"
+-                             style={{caret-color:"transparent"}}
+                            >
+                          ...
+                      ...
+                    ...
+          ...
+        ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="afterglow-..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/movie/aft..." tree={[...]} params={{slug:"afte..."}} renderTree={{...}} ...>
+                <SegmentViewNode type="page" pagePath="movie/[slu...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function MoviePage} serverProvidedParams={{...}}>
+                    <MoviePage params={Promise} searchParams={Promise}>
+                      <Header>
+                        <header className="site-heade...">
+                          <LinkComponent>
+                          <button>
+                          <nav>
+                          <div className="header-act...">
+                            <form className="search-box" onSubmit={function submitSearch}>
+                              <span>
+                              <input
+                                aria-label="Search titles"
+                                value=""
+                                onChange={function onChange}
+                                placeholder="Search titles"
+-                               style={{caret-color:"transparent"}}
+                              >
+                            ...
+                      ...
+                ...
+              ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="afterglow-..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/movie/aft..." tree={[...]} params={{slug:"afte..."}} renderTree={{...}} ...>
+                <SegmentViewNode type="page" pagePath="movie/[slu...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function MoviePage} serverProvidedParams={{...}}>
+                    <MoviePage params={Promise} searchParams={Promise}>
+                      <Header>
+                        <header className="site-heade...">
+                          <LinkComponent>
+                          <button>
+                          <nav>
+                          <div className="header-act...">
+                            <form className="search-box" onSubmit={function submitSearch}>
+                              <span>
+                              <input
+                                aria-label="Search titles"
+                                value=""
+                                onChange={function onChange}
+                                placeholder="Search titles"
+-                               style={{caret-color:"transparent"}}
+                              >
+                            ...
+                      ...
+                ...
+              ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="afterglow-..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/movie/aft..." tree={[...]} params={{slug:"afte..."}} renderTree={{...}} ...>
+                <SegmentViewNode type="page" pagePath="movie/[slu...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function MoviePage} serverProvidedParams={{...}}>
+                    <MoviePage params={Promise} searchParams={Promise}>
+                      <Header>
+                        <header className="site-heade...">
+                          <LinkComponent>
+                          <button>
+                          <nav>
+                          <div className="header-act...">
+                            <form className="search-box" onSubmit={function submitSearch}>
+                              <span>
+                              <input
+                                aria-label="Search titles"
+                                value=""
+                                onChange={function onChange}
+                                placeholder="Search titles"
+-                               style={{caret-color:"transparent"}}
+                              >
+                            ...
+                      ...
+                ...
+              ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="afterglow-..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/movie/aft..." tree={[...]} params={{slug:"afte..."}} renderTree={{...}} ...>
+                <SegmentViewNode type="page" pagePath="movie/[slu...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function MoviePage} serverProvidedParams={{...}}>
+                    <MoviePage params={Promise} searchParams={Promise}>
+                      <Header>
+                        <header className="site-heade...">
+                          <LinkComponent>
+                          <button>
+                          <nav>
+                          <div className="header-act...">
+                            <form className="search-box" onSubmit={function submitSearch}>
+                              <span>
+                              <input
+                                aria-label="Search titles"
+                                value=""
+                                onChange={function onChange}
+                                placeholder="Search titles"
+-                               style={{caret-color:"transparent"}}
+                              >
+                            ...
+                      ...
+                ...
+              ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="afterglow-..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/watch/aft..." tree={[...]} params={{slug:"afte..."}} renderTree={{...}} ...>
+                <SegmentViewNode type="page" pagePath="watch/[slu...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function WatchPage} serverProvidedParams={{...}}>
+                    <WatchPage params={Promise} searchParams={Promise}>
+                      <Header>
+                        <header className="site-heade...">
+                          <LinkComponent>
+                          <button>
+                          <nav>
+                          <div className="header-act...">
+                            <form className="search-box" onSubmit={function submitSearch}>
+                              <span>
+                              <input
+                                aria-label="Search titles"
+                                value=""
+                                onChange={function onChange}
+                                placeholder="Search titles"
+-                               style={{caret-color:"transparent"}}
+                              >
+                            ...
+                      ...
+                ...
+              ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="afterglow-..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/watch/aft..." tree={[...]} params={{slug:"afte..."}} renderTree={{...}} ...>
+                <SegmentViewNode type="page" pagePath="watch/[slu...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function WatchPage} serverProvidedParams={{...}}>
+                    <WatchPage params={Promise} searchParams={Promise}>
+                      <Header>
+                        <header className="site-heade...">
+                          <LinkComponent>
+                          <button>
+                          <nav>
+                          <div className="header-act...">
+                            <form className="search-box" onSubmit={function submitSearch}>
+                              <span>
+                              <input
+                                aria-label="Search titles"
+                                value=""
+                                onChange={function onChange}
+                                placeholder="Search titles"
+-                               style={{caret-color:"transparent"}}
+                              >
+                            ...
+                      ...
+                ...
+              ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="afterglow-..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/watch/aft..." tree={[...]} params={{slug:"afte..."}} renderTree={{...}} ...>
+                <SegmentViewNode type="page" pagePath="watch/[slu...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function WatchPage} serverProvidedParams={{...}}>
+                    <WatchPage params={Promise} searchParams={Promise}>
+                      <Header>
+                        <header className="site-heade...">
+                          <LinkComponent>
+                          <button>
+                          <nav>
+                          <div className="header-act...">
+                            <form className="search-box" onSubmit={function submitSearch}>
+                              <span>
+                              <input
+                                aria-label="Search titles"
+                                value=""
+                                onChange={function onChange}
+                                placeholder="Search titles"
+-                               style={{caret-color:"transparent"}}
+                              >
+                            ...
+                      ...
+                ...
+              ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="/_not-found/" loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/this-page..." tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+                <SegmentViewNode type="page" pagePath="not-found.tsx">
+                  <SegmentTrieNode>
+                  <NotFound>
+                    <Header>
+                      <header className="site-heade...">
+                        <LinkComponent>
+                        <button>
+                        <nav>
+                        <div className="header-act...">
+                          <form className="search-box" onSubmit={function submitSearch}>
+                            <span>
+                            <input
+                              aria-label="Search titles"
+                              value=""
+                              onChange={function onChange}
+                              placeholder="Search titles"
+-                             style={{caret-color:"transparent"}}
+                            >
+                          ...
+                    ...
+                ...
+              ...
+    ...
+ 
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[browser] Cannot update a component (`Router`) while rendering a different component (`AdminShell`). To locate the bad setState() call inside `AdminShell`, follow the stack trace as described in https://react.dev/link/setstate-in-render 
+    at AdminShell (src/components/layout/AdminShell.tsx:61:37)
+  59 |   }, [isReady, session, refresh, router, signOut]);
+  60 |
+> 61 |   if (isReady && !session) { router.replace('/login'); return <main className="admin-main"><p className="loading-note">Redirecting to sign in…</p></main>; }
+     |                                     ^
+  62 |   if (!isReady || !session) return <main className="admin-main"><p className="loading-note">Checking your admin access…</p></main>;
+  63 |   if (!role || !['editor', 'admin', 'super_admin'].includes(role)) return <main className="admin-main"><div className="admin-empty" role="alert"><h1>Admin access required.</h1><p>Your account does not have staff permissions.</p><L...
+  64 |   if (!canAccess(currentModule, role)) return <main className="admin-main"><div className="admin-empty" role="alert"><h1>Permission required.</h1><p>Your role cannot access this workspace module.</p><Link className="button button-... (src/components/layout/AdminShell.tsx:61:37)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <LoadingBoundary name="/" loading={null}>
+      <HTTPAccessFallbackBoundary notFound={{...}} forbidden={undefined} unauthorized={undefined}>
+        <HTTPAccessFallbackErrorBoundary pathname="/" notFound={{...}} forbidden={undefined} unauthorized={undefined} ...>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/" tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+                <SegmentViewNode type="page" pagePath="page.tsx">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function HomePage} serverProvidedParams={{...}}>
+                    <HomePage params={Promise} searchParams={Promise}>
+                      <Header>
+                        <header className="site-heade...">
+                          <LinkComponent>
+                          <button>
+                          <nav>
+                          <div className="header-act...">
+                            <form className="search-box" onSubmit={function submitSearch}>
+                              <span>
+                              <input
+                                aria-label="Search titles"
+                                value=""
+                                onChange={function onChange}
+                                placeholder="Search titles"
+-                               style={{caret-color:"transparent"}}
+                              >
+                            ...
+                      ...
+                ...
+              ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <LoadingBoundary name="/" loading={null}>
+      <HTTPAccessFallbackBoundary notFound={{...}} forbidden={undefined} unauthorized={undefined}>
+        <HTTPAccessFallbackErrorBoundary pathname="/" notFound={{...}} forbidden={undefined} unauthorized={undefined} ...>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/" tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+                <SegmentViewNode type="page" pagePath="page.tsx">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function HomePage} serverProvidedParams={{...}}>
+                    <HomePage params={Promise} searchParams={Promise}>
+                      <Header>
+                        <header className="site-heade...">
+                          <LinkComponent>
+                          <button>
+                          <nav>
+                          <div className="header-act...">
+                            <form className="search-box" onSubmit={function submitSearch}>
+                              <span>
+                              <input
+                                aria-label="Search titles"
+                                value=""
+                                onChange={function onChange}
+                                placeholder="Search titles"
+-                               style={{caret-color:"transparent"}}
+                              >
+                            ...
+                      ...
+                ...
+              ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <LoadingBoundary name="/" loading={null}>
+      <HTTPAccessFallbackBoundary notFound={{...}} forbidden={undefined} unauthorized={undefined}>
+        <HTTPAccessFallbackErrorBoundary pathname="/" notFound={{...}} forbidden={undefined} unauthorized={undefined} ...>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/" tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+                <SegmentViewNode type="page" pagePath="page.tsx">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function HomePage} serverProvidedParams={{...}}>
+                    <HomePage params={Promise} searchParams={Promise}>
+                      <Header>
+                        <header className="site-heade...">
+                          <LinkComponent>
+                          <button>
+                          <nav>
+                          <div className="header-act...">
+                            <form className="search-box" onSubmit={function submitSearch}>
+                              <span>
+                              <input
+                                aria-label="Search titles"
+                                value=""
+                                onChange={function onChange}
+                                placeholder="Search titles"
+-                               style={{caret-color:"transparent"}}
+                              >
+                            ...
+                      ...
+                ...
+              ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="login/" loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/login" tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+                <SegmentViewNode type="page" pagePath="login/page...">
+                  <SegmentTrieNode>
+                  <LoginPage>
+                    <AuthShell>
+                      <main className="auth-page">
+                        <div>
+                        <section className="auth-panel" aria-labelledby="auth-title">
+                          <LinkComponent>
+                          <div>
+                          <AuthForm mode="login">
+                            <form className="auth-form" onSubmit={function submit} noValidate={true}>
+                              <label className="field">
+                                <span>
+                                <input
+                                  type="email"
+                                  value=""
+                                  onChange={function onChange}
+                                  autoComplete="email"
+                                  required={true}
+                                  disabled={false}
+-                                 style={{caret-color:"transparent"}}
+                                >
+                              <label className="field pass...">
+                                <span>
+                                <input
+                                  type="password"
+                                  value=""
+                                  onChange={function onChange}
+                                  autoComplete="current-password"
+                                  required={true}
+                                  minLength={8}
+                                  disabled={false}
+-                                 style={{caret-color:"transparent"}}
+                                >
+                                ...
+                              ...
+                          ...
+                        ...
+                ...
+              ...
+    ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="login/" loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/login" tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+                <SegmentViewNode type="page" pagePath="login/page...">
+                  <SegmentTrieNode>
+                  <LoginPage>
+                    <AuthShell>
+                      <main className="auth-page">
+                        <div>
+                        <section className="auth-panel" aria-labelledby="auth-title">
+                          <LinkComponent>
+                          <div>
+                          <AuthForm mode="login">
+                            <form className="auth-form" onSubmit={function submit} noValidate={true}>
+                              <label className="field">
+                                <span>
+                                <input
+                                  type="email"
+                                  value=""
+                                  onChange={function onChange}
+                                  autoComplete="email"
+                                  required={true}
+                                  disabled={false}
+-                                 style={{caret-color:"transparent"}}
+                                >
+                              <label className="field pass...">
+                                <span>
+                                <input
+                                  type="password"
+                                  value=""
+                                  onChange={function onChange}
+                                  autoComplete="current-password"
+                                  required={true}
+                                  minLength={8}
+                                  disabled={false}
+-                                 style={{caret-color:"transparent"}}
+                                >
+                                ...
+                              ...
+                          ...
+                        ...
+                ...
+              ...
+    ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="register/" loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/register" tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+                <SegmentViewNode type="page" pagePath="register/p...">
+                  <SegmentTrieNode>
+                  <RegisterPage>
+                    <AuthShell>
+                      <main className="auth-page">
+                        <div>
+                        <section className="auth-panel" aria-labelledby="auth-title">
+                          <LinkComponent>
+                          <div>
+                          <AuthForm mode="register">
+                            <form className="auth-form" onSubmit={function submit} noValidate={true}>
+                              <label className="field">
+                                <span>
+                                <input
+                                  value=""
+                                  onChange={function onChange}
+                                  autoComplete="name"
+                                  required={true}
+                                  minLength={2}
+                                  disabled={false}
+-                                 style={{caret-color:"transparent"}}
+                                >
+                              <label className="field">
+                                <span>
+                                <input
+                                  type="email"
+                                  value=""
+                                  onChange={function onChange}
+                                  autoComplete="email"
+                                  required={true}
+                                  disabled={false}
+-                                 style={{caret-color:"transparent"}}
+                                >
+                              <label className="field pass...">
+                                <span>
+                                <input
+                                  type="password"
+                                  value=""
+                                  onChange={function onChange}
+                                  autoComplete="new-password"
+                                  required={true}
+                                  minLength={8}
+                                  disabled={false}
+-                                 style={{caret-color:"transparent"}}
+                                >
+                                ...
+                              <div>
+                              <label className="terms-check">
+                                <input
+                                  type="checkbox"
+                                  checked={false}
+                                  onChange={function onChange}
+                                  disabled={false}
+-                                 style={{caret-color:"transparent"}}
+                                >
+                                ...
+                              ...
+                          ...
+                        ...
+                ...
+              ...
+    ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="register/" loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/register" tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+                <SegmentViewNode type="page" pagePath="register/p...">
+                  <SegmentTrieNode>
+                  <RegisterPage>
+                    <AuthShell>
+                      <main className="auth-page">
+                        <div>
+                        <section className="auth-panel" aria-labelledby="auth-title">
+                          <LinkComponent>
+                          <div>
+                          <AuthForm mode="register">
+                            <form className="auth-form" onSubmit={function submit} noValidate={true}>
+                              <label className="field">
+                                <span>
+                                <input
+                                  value=""
+                                  onChange={function onChange}
+                                  autoComplete="name"
+                                  required={true}
+                                  minLength={2}
+                                  disabled={false}
+-                                 style={{caret-color:"transparent"}}
+                                >
+                              <label className="field">
+                                <span>
+                                <input
+                                  type="email"
+                                  value=""
+                                  onChange={function onChange}
+                                  autoComplete="email"
+                                  required={true}
+                                  disabled={false}
+-                                 style={{caret-color:"transparent"}}
+                                >
+                              <label className="field pass...">
+                                <span>
+                                <input
+                                  type="password"
+                                  value=""
+                                  onChange={function onChange}
+                                  autoComplete="new-password"
+                                  required={true}
+                                  minLength={8}
+                                  disabled={false}
+-                                 style={{caret-color:"transparent"}}
+                                >
+                                ...
+                              <div>
+                              <label className="terms-check">
+                                <input
+                                  type="checkbox"
+                                  checked={false}
+                                  onChange={function onChange}
+                                  disabled={false}
+-                                 style={{caret-color:"transparent"}}
+                                >
+                                ...
+                              ...
+                          ...
+                        ...
+                ...
+              ...
+    ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/browse" tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="browse/pag...">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function BrowsePage} serverProvidedParams={{...}}>
+              <BrowsePage params={Promise} searchParams={Promise}>
+                <Suspense fallback={<Fragment>}>
+                  <BrowseContent>
+                    <Header>
+                      <header className="site-heade...">
+                        <LinkComponent>
+                        <button>
+                        <nav>
+                        <div className="header-act...">
+                          <form className="search-box" onSubmit={function submitSearch}>
+                            <span>
+                            <input
+                              aria-label="Search titles"
+                              value=""
+                              onChange={function onChange}
+                              placeholder="Search titles"
+-                             style={{caret-color:"transparent"}}
+                            >
+                          ...
+                    <main className="browse-page">
+                      <section>
+                      <CatalogControls filters={{query:"",genre:"", ...}} ...>
+                        <div className="catalog-co..." aria-label="Catalog fi...">
+                          <label className="catalog-se...">
+                            <span>
+                            <input
+                              value=""
+                              onChange={function onChange}
+                              placeholder="Search the library"
+                              aria-label="Search the library"
+-                             style={{caret-color:"transparent"}}
+                            >
+                          ...
+                      ...
+                    ...
+          ...
+        ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/browse" tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="browse/pag...">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function BrowsePage} serverProvidedParams={{...}}>
+              <BrowsePage params={Promise} searchParams={Promise}>
+                <Suspense fallback={<Fragment>}>
+                  <BrowseContent>
+                    <Header>
+                      <header className="site-heade...">
+                        <LinkComponent>
+                        <button>
+                        <nav>
+                        <div className="header-act...">
+                          <form className="search-box" onSubmit={function submitSearch}>
+                            <span>
+                            <input
+                              aria-label="Search titles"
+                              value=""
+                              onChange={function onChange}
+                              placeholder="Search titles"
+-                             style={{caret-color:"transparent"}}
+                            >
+                          ...
+                    <main className="browse-page">
+                      <section>
+                      <CatalogControls filters={{query:"",genre:"", ...}} ...>
+                        <div className="catalog-co..." aria-label="Catalog fi...">
+                          <label className="catalog-se...">
+                            <span>
+                            <input
+                              value=""
+                              onChange={function onChange}
+                              placeholder="Search the library"
+                              aria-label="Search the library"
+-                             style={{caret-color:"transparent"}}
+                            >
+                          ...
+                      ...
+                    ...
+          ...
+        ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="account/" loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/account" tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+                <SegmentViewNode type="page" pagePath="account/pa...">
+                  <SegmentTrieNode>
+                  <AccountPage>
+                    <ProtectedAccount>
+                      <Header>
+                        <header className="site-heade...">
+                          <LinkComponent>
+                          <button>
+                          <nav>
+                          <div className="header-act...">
+                            <form className="search-box" onSubmit={function submitSearch}>
+                              <span>
+                              <input
+                                aria-label="Search titles"
+                                value=""
+                                onChange={function onChange}
+                                placeholder="Search titles"
+-                               style={{caret-color:"transparent"}}
+                              >
+                            ...
+                      ...
+                ...
+              ...
+    ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="account/" loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/account" tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+                <SegmentViewNode type="page" pagePath="account/pa...">
+                  <SegmentTrieNode>
+                  <AccountPage>
+                    <ProtectedAccount>
+                      <Header>
+                        <header className="site-heade...">
+                          <LinkComponent>
+                          <button>
+                          <nav>
+                          <div className="header-act...">
+                            <form className="search-box" onSubmit={function submitSearch}>
+                              <span>
+                              <input
+                                aria-label="Search titles"
+                                value=""
+                                onChange={function onChange}
+                                placeholder="Search titles"
+-                               style={{caret-color:"transparent"}}
+                              >
+                            ...
+                      ...
+                ...
+              ...
+    ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="account/" loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/account" tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+                <SegmentViewNode type="page" pagePath="account/pa...">
+                  <SegmentTrieNode>
+                  <AccountPage>
+                    <ProtectedAccount>
+                      <Header>
+                        <header className="site-heade...">
+                          <LinkComponent>
+                          <button>
+                          <nav>
+                          <div className="header-act...">
+                            <form className="search-box" onSubmit={function submitSearch}>
+                              <span>
+                              <input
+                                aria-label="Search titles"
+                                value=""
+                                onChange={function onChange}
+                                placeholder="Search titles"
+-                               style={{caret-color:"transparent"}}
+                              >
+                            ...
+                      ...
+                ...
+              ...
+    ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="afterglow-..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/movie/aft..." tree={[...]} params={{slug:"afte..."}} renderTree={{...}} ...>
+                <SegmentViewNode type="page" pagePath="movie/[slu...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function MoviePage} serverProvidedParams={{...}}>
+                    <MoviePage params={Promise} searchParams={Promise}>
+                      <Header>
+                        <header className="site-heade...">
+                          <LinkComponent>
+                          <button>
+                          <nav>
+                          <div className="header-act...">
+                            <form className="search-box" onSubmit={function submitSearch}>
+                              <span>
+                              <input
+                                aria-label="Search titles"
+                                value=""
+                                onChange={function onChange}
+                                placeholder="Search titles"
+-                               style={{caret-color:"transparent"}}
+                              >
+                            ...
+                      ...
+                ...
+              ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="afterglow-..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/movie/aft..." tree={[...]} params={{slug:"afte..."}} renderTree={{...}} ...>
+                <SegmentViewNode type="page" pagePath="movie/[slu...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function MoviePage} serverProvidedParams={{...}}>
+                    <MoviePage params={Promise} searchParams={Promise}>
+                      <Header>
+                        <header className="site-heade...">
+                          <LinkComponent>
+                          <button>
+                          <nav>
+                          <div className="header-act...">
+                            <form className="search-box" onSubmit={function submitSearch}>
+                              <span>
+                              <input
+                                aria-label="Search titles"
+                                value=""
+                                onChange={function onChange}
+                                placeholder="Search titles"
+-                               style={{caret-color:"transparent"}}
+                              >
+                            ...
+                      ...
+                ...
+              ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="afterglow-..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/movie/aft..." tree={[...]} params={{slug:"afte..."}} renderTree={{...}} ...>
+                <SegmentViewNode type="page" pagePath="movie/[slu...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function MoviePage} serverProvidedParams={{...}}>
+                    <MoviePage params={Promise} searchParams={Promise}>
+                      <Header>
+                        <header className="site-heade...">
+                          <LinkComponent>
+                          <button>
+                          <nav>
+                          <div className="header-act...">
+                            <form className="search-box" onSubmit={function submitSearch}>
+                              <span>
+                              <input
+                                aria-label="Search titles"
+                                value=""
+                                onChange={function onChange}
+                                placeholder="Search titles"
+-                               style={{caret-color:"transparent"}}
+                              >
+                            ...
+                      ...
+                ...
+              ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="afterglow-..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/watch/aft..." tree={[...]} params={{slug:"afte..."}} renderTree={{...}} ...>
+                <SegmentViewNode type="page" pagePath="watch/[slu...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function WatchPage} serverProvidedParams={{...}}>
+                    <WatchPage params={Promise} searchParams={Promise}>
+                      <Header>
+                        <header className="site-heade...">
+                          <LinkComponent>
+                          <button>
+                          <nav>
+                          <div className="header-act...">
+                            <form className="search-box" onSubmit={function submitSearch}>
+                              <span>
+                              <input
+                                aria-label="Search titles"
+                                value=""
+                                onChange={function onChange}
+                                placeholder="Search titles"
+-                               style={{caret-color:"transparent"}}
+                              >
+                            ...
+                      ...
+                ...
+              ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="afterglow-..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/watch/aft..." tree={[...]} params={{slug:"afte..."}} renderTree={{...}} ...>
+                <SegmentViewNode type="page" pagePath="watch/[slu...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function WatchPage} serverProvidedParams={{...}}>
+                    <WatchPage params={Promise} searchParams={Promise}>
+                      <Header>
+                        <header className="site-heade...">
+                          <LinkComponent>
+                          <button>
+                          <nav>
+                          <div className="header-act...">
+                            <form className="search-box" onSubmit={function submitSearch}>
+                              <span>
+                              <input
+                                aria-label="Search titles"
+                                value=""
+                                onChange={function onChange}
+                                placeholder="Search titles"
+-                               style={{caret-color:"transparent"}}
+                              >
+                            ...
+                      ...
+                ...
+              ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="afterglow-..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/watch/aft..." tree={[...]} params={{slug:"afte..."}} renderTree={{...}} ...>
+                <SegmentViewNode type="page" pagePath="watch/[slu...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function WatchPage} serverProvidedParams={{...}}>
+                    <WatchPage params={Promise} searchParams={Promise}>
+                      <Header>
+                        <header className="site-heade...">
+                          <LinkComponent>
+                          <button>
+                          <nav>
+                          <div className="header-act...">
+                            <form className="search-box" onSubmit={function submitSearch}>
+                              <span>
+                              <input
+                                aria-label="Search titles"
+                                value=""
+                                onChange={function onChange}
+                                placeholder="Search titles"
+-                               style={{caret-color:"transparent"}}
+                              >
+                            ...
+                      ...
+                ...
+              ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="/_not-found/" loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/this-page..." tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+                <SegmentViewNode type="page" pagePath="not-found.tsx">
+                  <SegmentTrieNode>
+                  <NotFound>
+                    <Header>
+                      <header className="site-heade...">
+                        <LinkComponent>
+                        <button>
+                        <nav>
+                        <div className="header-act...">
+                          <form className="search-box" onSubmit={function submitSearch}>
+                            <span>
+                            <input
+                              aria-label="Search titles"
+                              value=""
+                              onChange={function onChange}
+                              placeholder="Search titles"
+-                             style={{caret-color:"transparent"}}
+                            >
+                          ...
+                    ...
+                ...
+              ...
+    ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="/_not-found/" loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/this-page..." tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+                <SegmentViewNode type="page" pagePath="not-found.tsx">
+                  <SegmentTrieNode>
+                  <NotFound>
+                    <Header>
+                      <header className="site-heade...">
+                        <LinkComponent>
+                        <button>
+                        <nav>
+                        <div className="header-act...">
+                          <form className="search-box" onSubmit={function submitSearch}>
+                            <span>
+                            <input
+                              aria-label="Search titles"
+                              value=""
+                              onChange={function onChange}
+                              placeholder="Search titles"
+-                             style={{caret-color:"transparent"}}
+                            >
+                          ...
+                    ...
+                ...
+              ...
+    ...
+ 
+⚠ Blocked cross-origin request to Next.js dev resource /_next/hmr from "127.0.0.1".
+Cross-origin access to Next.js dev resources is blocked by default for safety.
+
+To allow this host in development, add it to "allowedDevOrigins" in next.config.js and restart the dev server:
+
+// next.config.js
+module.exports = {
+  allowedDevOrigins: ['127.0.0.1'],
+}
+
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+npm error Lifecycle script `dev` failed with error:
+npm error code 1
+npm error path C:\Users\User\omnirush.ai\NMedia\frontend
+npm error workspace nmedia-frontend@0.1.0
+npm error location C:\Users\User\omnirush.ai\NMedia\frontend
+npm error command failed
+npm error command C:\Windows\system32\cmd.exe /d /s /c next dev

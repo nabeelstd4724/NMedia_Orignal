@@ -1,0 +1,33 @@
+{
+  "name": "nmedia",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend",
+    "contracts"
+  ],
+  "scripts": {
+    "dev:frontend": "npm --workspace frontend run dev",
+    "dev:backend": "npm --workspace backend run dev",
+    "build:frontend": "npm --workspace frontend run build",
+    "build:backend": "npm --workspace backend run build",
+    "typecheck": "npm run typecheck:frontend && npm run typecheck:backend && npm run typecheck:contracts",
+    "typecheck:frontend": "npm --workspace frontend run typecheck",
+    "typecheck:backend": "npm --workspace backend run typecheck",
+    "typecheck:contracts": "npm --workspace contracts run typecheck",
+    "test:backend": "npm --workspace backend run smoke",
+    "test:ads:frontend": "tsx --tsconfig frontend/tsconfig.json frontend/src/services/ads.smoke.ts",
+    "test:ui": "playwright test",
+    "check:openapi": "node scripts/check-openapi.mjs",
+    "check": "npm run typecheck && npm run check:openapi && npm run test:backend && npm run test:ads:frontend && npm run test:ui && npm run build:frontend && npm run build:backend"
+  },
+  "dependencies": {
+    "next": "^16.4.2",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.14.0",
+    "@playwright/test": "^1.64.1"
+  }
+}

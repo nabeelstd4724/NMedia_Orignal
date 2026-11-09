@@ -1,0 +1,42 @@
+import assert from 'node:assert/strict';
+import { mkdtempSync, rmSync } from 'node:fs';
+import { join } from 'node:path';
+import { SQLiteHomepageRepository } from './homepage-repository.js';
+import { InMemoryCatalogRepository } from '../catalog/repository.js';
+import { HomepageViewService } from '../homepage/service.js';
+import { buildHeroes } from '../homepage/hero-service.js';
+
+const root = mkdtempSync(join(process.cwd(), '.homepage-test-'));
+const path = join(root, 'homepage.sqlite');
+let first: SQLiteHomepageRepository | undefined;
+let reopened: SQLiteHomepageRepository | undefined;
+try {
+  first = new SQLiteHomepageRepository(path);
+  const draft = await first.getDraft();
+  assert.equal(draft.heroes.length <= 8, true);
+  assert.equal(buildHeroes({ ...draft, heroSlides: [{ id: 'active', movieId: 'mov_aurora', eyebrow: 'Scheduled', accent: 'Follow the light.', ctaLabel: 'Explore', active: true, order: 1 }, { id: 'inactive', movieId: 'mov_signal', eyebrow: 'Hidden', accent: 'Nope', ctaLabel: 'Nope', active: false, order: 2 }] }, await new InMemoryCatalogRepository().listPublished({ sort: 'rating' })).length, 1);
+  assert.equal(buildHeroes({ ...draft, heroSlides: [{ id: 'future', movieId: 'mov_aurora', eyebrow: 'Future', accent: 'Not yet.', ctaLabel: 'Later', active: true, order: 1, startAt: '2999-01-01T00:00:00.000Z' }] }, await new InMemoryCatalogRepository().listPublished({ sort: 'rating' }), new Date('2026-01-01T00:00:00.000Z')).length > 1, true);
+  draft.hero.title = 'Sprint 3 Homepage';
+  await first.saveDraft(draft);
+  const version = await first.publish();
+  assert.equal(version.version, 1);
+  assert.equal((await first.getPublished()).hero.title, 'Sprint 3 Homepage');
+  assert.equal((await first.listVersions()).length, 1);
+  first.close(); first = undefined;
+  reopened = new SQLiteHomepageRepository(path);
+  assert.equal((await reopened.getPublished()).hero.title, 'Sprint 3 Homepage');
+  assert.equal((await reopened.restore(1))?.hero.title, 'Sprint 3 Homepage');
+  const catalog = new InMemoryCatalogRepository();
+  const view = new HomepageViewService(reopened, catalog);
+  const firstView = await view.getPublished();
+  assert.equal(firstView.heroes.length <= 8, true);
+  const changed = await reopened.getDraft();
+  changed.heroSlides = [{ id: 'replacement', movieId: 'mov_signal', eyebrow: 'Replacement', accent: 'A new signal.', ctaLabel: 'Explore', active: true, order: 1 }];
+  await reopened.saveDraft(changed);
+  await reopened.publish();
+  assert.equal((await view.getPublished()).heroes[0]?.title, firstView.heroes[0]?.title);
+  view.invalidate();
+  assert.equal((await view.getPublished()).heroes[0]?.title, 'Signal in the Static');
+  reopened.close(); reopened = undefined;
+  console.info('Durable homepage tests passed: draft, publish, version, restore, hero scheduling, fallback and cache invalidation.');
+} finally { first?.close(); reopened?.close(); rmSync(root, { recursive: true, force: true }); }
